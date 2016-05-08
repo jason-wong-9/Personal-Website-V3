@@ -57,3 +57,7 @@ body {
   color: #ffffff;
   text-decoration: none;
 }
+/*Form*/
+form {
+    display:inline-block;
+}

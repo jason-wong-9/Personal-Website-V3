@@ -5,6 +5,7 @@
 	<!-- JQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
 
+
     <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -14,8 +15,12 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
+
 	<!-- Custom css -->
     <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <link rel="stylesheet" href="css/materialize-input.css" type="text/css">
+
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -100,9 +105,36 @@
 		</div>
 	</section>
 
-	<section id="contact">
-		<h1 class="text-center">GET IN TOUCH</h1>
-		<h5 class="text-center">GIVE ME A SHOUTOUT, GIVE ME A CHANCE TO ENTER YOUR WORLD.</h5>
+	<section id="contact" class="container text-center">
+		<h1>GET IN TOUCH</h1>
+		<h5 style="margin-bottom:50px;">GIVE ME A SHOUTOUT, GIVE ME A CHANCE TO ENTER YOUR WORLD.</h5>
+		<form>
+    		<div class="group">      
+				<input type="text" required>
+				<span class="highlight"></span>
+				<span class="bar"></span>
+				<label>Name</label>
+    		</div>
+      
+    		<div class="group">      
+    			<input type="text" required>
+				<span class="highlight"></span>
+				<span class="bar"></span>
+				<label>Email</label>
+    		</div>
+
+    		<div class="group">      
+    			<input type="text" required>
+				<span class="highlight"></span>
+				<span class="bar"></span>
+				<label>Message</label>
+    		</div>
+    
+  		</form>
+  		<br/>
+  		<button class="mybutton" style="margin-bottom: 30px;">
+  			SEND
+  		</button>
 	</section>
 
 	<section id="footer">
