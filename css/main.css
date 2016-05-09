@@ -24,10 +24,13 @@ body {
 #project {
 	width: 100%;
 	height: 100%;
+	background: #f9f7f6;
+	padding-top: 30px;
 }
 #type ul{
 	padding: 0;
 	margin-top: 30px;
+	margin-bottom: 30px;
 }
 #type li {
 	display: inline;
@@ -38,6 +41,25 @@ body {
 	text-decoration: none;
 }
 
+.cubefield {
+	background: url(../img/cube-field/cube-field-0.png) no-repeat center center;
+	width: 250px;
+	height: 250px;
+	background-size: cover;
+}
+
+/*Contact*/
+#contact {
+	background: #f0e5dd;
+}
+
+/*Footer*/
+#footer {
+	background: #615955;
+}
+.github-icon {
+	background: url(../img/icons/email_full.png);
+}
 /*Custom Button*/
 .mybutton {
   -webkit-border-radius: 0;
@@ -56,8 +78,4 @@ body {
   background: #000000;
   color: #ffffff;
   text-decoration: none;
-}
-/*Form*/
-form {
-    display:inline-block;
 }
