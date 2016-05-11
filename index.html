@@ -15,6 +15,9 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
+	<script src="js/jquery.sticky.js"></script>
+
+
 
 	<!-- Custom css -->
     <link rel="stylesheet" href="css/main.css" type="text/css">
@@ -30,28 +33,32 @@
 	</section>
 
 	<section id="profile">
-		<nav class="navbar navbar-default">
-  			<div class="container-fluid">
-    			<div class="navbar-header">
-    				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				        <span class="sr-only">Toggle navigation</span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-      				</button>
-      				<a class="navbar-brand" href="#">
-        				<img alt="Brand" src="img/nav-icon.jpg" height="50px" style="margin-top: -15px;">
-      				</a>
-    			</div>
-    			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    				<ul class="nav navbar-nav navbar-right">
-        				<li><a href="#">ABOUT</a></li>
-        				<li><a href="#">PROJECTS</a></li>
-        				<li><a href="#">CONTACT</a></li>
-      				</ul>
-    			</div>
-  			</div>
-		</nav>
+		<div class="sticky-wrapper">
+			<header>
+				<nav class="navbar navbar-default">
+		  			<div class="container-fluid">
+		    			<div class="navbar-header">
+		    				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						        <span class="sr-only">Toggle navigation</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+		      				</button>
+		      				<a class="navbar-brand" href="#">
+		        				<img alt="Brand" src="img/nav-icon.jpg" height="50px" style="margin-top: -15px;">
+		      				</a>
+		    			</div>
+		    			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		    				<ul class="nav navbar-nav navbar-right">
+		        				<li><a href="#">ABOUT</a></li>
+		        				<li><a href="#">PROJECTS</a></li>
+		        				<li><a href="#">CONTACT</a></li>
+		      				</ul>
+		    			</div>
+		  			</div>
+				</nav>
+			</header>
+		</div>
 		<div class="container">
 
         	<div class="row featurette">
@@ -155,6 +162,14 @@
 			<h5>2016 Jason Wong</h5>
 		</div>
 	</section>
+
+	<script>
+	  	$(document).ready(function(){
+	    	$('header').sticky({
+            	topSpacing: 0
+        	});
+	  	});
+	</script>
 
 </body>
 </html>
