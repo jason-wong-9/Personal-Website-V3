@@ -41,7 +41,7 @@ body {
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1000px) {
     .thumbnail{        
     	margin-right:3.33333%;
     	margin-bottom: 70px;
@@ -51,12 +51,7 @@ body {
 	}
 }
 
-@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
-    /* STYLES HERE */
-    .col-md-4 {
-		width: 50%;
-	}
-}
+
 
 
 /*Contact*/
