@@ -67,6 +67,11 @@ header {
 	background: #615955;
 }
 
+#heart {
+    -webkit-animation-iteration-count: infinite;
+    color: #ff5252;
+}
+
 /*Custom Button*/
 .mybutton {
   -webkit-border-radius: 0;
