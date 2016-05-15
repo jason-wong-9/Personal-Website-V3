@@ -51,7 +51,7 @@
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
 	      				</button>
-	      				<a class="navbar-brand" href="#profile">
+	      				<a class="navbar-brand" href="#coverpage">
 	        				<img alt="Brand" src="img/nav-icon.jpg" height="50px" style="margin-top: -15px;">
 	      				</a>
 	    			</div>
@@ -85,7 +85,7 @@
 	                <p class="lead">My laziness fuels my innovative ideas and immerses myself in the dimension where my creativity runs wild. I embrace my engineering journey with challenges and thrills from Hackathons, contests, and other adventurous experiences.</p>
 	                <p class="lead">I enjoy the tapping my head into the musical world through singing, as well as the indefinite astrospace where answers emerge to feed my insatiable curiosity I thrive to build a more convenient, exciting and imaginative world.</p>
 	                <a href= "docs/current_resume.pdf" target="_blank">
-		                <button class="mybutton" style=" margin-top: 20px;">
+		                <button class="mybutton" style=" margin-top: 20px; margin-bottom: 70px;">
 		                	RESUME
 		                </button>
 		            </a>
@@ -111,22 +111,22 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 thumbnail">
+				<div class="col-md-4 col-sm-6 thumbnail">
 					<img src="img/cube-field/cube-field-0.png" onmouseover="this.src='img/cube-field/cube-field-1.png'" onmouseout="this.src='img/cube-field/cube-field-0.png'"/>
 				</div>
-				<div class="col-md-4 thumbnail">
+				<div class="col-md-4 col-sm-6 thumbnail">
 					<img src="img/letschill/Lets Chill.png" onmouseover="this.src='img/letschill/Lets Chill1.png'" onmouseout="this.src='img/letschill/Lets Chill.png'"/>
 				</div>
-				<div class="col-md-4 thumbnail">
+				<div class="col-md-4 col-sm-6 thumbnail">
 					<img src="img/mycfl/MyCFL.png" onmouseover="this.src='img/mycfl/MyCFL1.png'" onmouseout="this.src='img/mycfl/MyCFL.png'"/>
 				</div>
-				<div class="col-md-4 thumbnail">
+				<div class="col-md-4 col-sm-6 thumbnail">
 					<img src="img/moscrop/Moscrop.png" onmouseover="this.src='img/moscrop/Moscrop1.png'" onmouseout="this.src='img/moscrop/Moscrop.png'"/>
 				</div>
-				<div class="col-md-4 thumbnail">
+				<div class="col-md-4 col-sm-6 thumbnail">
 					<img src="img/course-watcher/Course Watcher.png" onmouseover="this.src='img/course-watcher/Course Watcher_1.png'" onmouseout="this.src='img/course-watcher/Course Watcher.png'"/>
 				</div>
-				<div class="col-md-4 thumbnail">
+				<div class="col-md-4 col-sm-6 thumbnail">
 					<img src="img/mind-the-gap/Mind the Gap.png" onmouseover="this.src='img/mind-the-gap/Mind the Gap1.png'" onmouseout="this.src='img/mind-the-gap/Mind the Gap.png'"/>
 				</div>
 			</div>
@@ -208,8 +208,19 @@
             	e.preventDefault();
         	});
 
+        	$('.nav a').on('click', function(){
+			    $('.navbar-toggle').click();
+			});
+
+			$('body').scrollspy({
+				target: '.navbar',
+				offset: 50
+			});
+
 	  	});
+	  	
 	</script>
+
 
 </body>
 </html>
