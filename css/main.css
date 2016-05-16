@@ -19,11 +19,33 @@ body {
 	position: relative;
 }
 
+/*navbar*/
+header {
+  z-index: 30 !important;
+}
+
 /*Profile*/
 
-header {
-	z-index: 30 !important;
+
+.navbar-default .nav li.active,  .navbar-default .nav li a:hover, .navbar-default .nav li a:focus, .navbar-default .navbar-nav > li.active a {
+  background: none; 
+  outline: 0; 
+/*  color: #E7746F; */
+  /*text-decoration: underline;*/
 }
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background: none; 
+  outline: 0; 
+  /*color: #E7746F; */
+  /*text-decoration: underline;*/
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+  background: none;
+  box-shadow: none;
+}
+
 
 /*Project*/
 #project {
