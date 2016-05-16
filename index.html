@@ -9,8 +9,6 @@
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
-	
-
 
 
 	<!-- Custom css -->
@@ -98,25 +96,24 @@
 			<div class="row">
 				<h1 class="text-center" style="padding-bottom: 50px;">RECENT PROJECTS</h1>
 
-				<!-- <div id="type" class="text-center">
-					<ul style="font-size: 20px;">
-						<li id="all" class="active">ALL</li>
-						<li id="personal">Personal</li>
-						<li id="hackathon">Hackathon</li>
-						<li id="school">School</li>
-					</ul>
-				</div> -->
+				
 			</div>
 		
 			<div id="projectcontent" class="row">
-				<div class="col-md-4 col-sm-6 thumbnail">
-					<img src="img/cube-field/cube-field-0.png" onmouseover="this.src='img/cube-field/cube-field-1.png'" onmouseout="this.src='img/cube-field/cube-field-0.png'"/>
+				<div class="col-md-4 col-sm-6 thumbnail" >
+					<a href="#" data-toggle="modal" data-target="#cubefield-modal">
+						<img src="img/cube-field/cube-field-0.png" onmouseover="this.src='img/cube-field/cube-field-1.png'" onmouseout="this.src='img/cube-field/cube-field-0.png'"/>
+					</a>
 				</div>
 				<div class="col-md-4 col-sm-6 thumbnail">
-					<img src="img/letschill/Lets Chill.png" onmouseover="this.src='img/letschill/Lets Chill1.png'" onmouseout="this.src='img/letschill/Lets Chill.png'"/>
+					<a href="#" data-toggle="modal" data-target="#letschill-modal">
+						<img src="img/letschill/Lets Chill.png" onmouseover="this.src='img/letschill/Lets Chill1.png'" onmouseout="this.src='img/letschill/Lets Chill.png'"/>
+					</a>
 				</div>
 				<div class="col-md-4 col-sm-6 thumbnail nomargin">
-					<img src="img/mycfl/MyCFL.png" onmouseover="this.src='img/mycfl/MyCFL1.png'" onmouseout="this.src='img/mycfl/MyCFL.png'"/>
+					<a href="#" data-toggle="modal" data-target="#mycfl-modal">
+						<img src="img/mycfl/MyCFL.png" onmouseover="this.src='img/mycfl/MyCFL1.png'" onmouseout="this.src='img/mycfl/MyCFL.png'"/>
+					</a>
 				</div>
 				<div class="col-md-4 col-sm-6 thumbnail">
 					<img src="img/moscrop/Moscrop.png" onmouseover="this.src='img/moscrop/Moscrop1.png'" onmouseout="this.src='img/moscrop/Moscrop.png'"/>
@@ -132,6 +129,93 @@
 		<br/>
 		</div>
 	</section>
+
+	<!-- CubeField Modal -->
+    <div id="cubefield-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                	<h4 class="modal-title"><b>Cube Field</b></h4>
+                </div>
+                <div class="modal-body">
+                    <p>An Android application that is created during nwHacks in a team of three. It allows the user to navigate through 3D space with randomly-generated cubes in a Virtual Reality simulation. This is made purely with Java along with our own implementation of perspective projection that converts a bunch of 3D vectors onto a 2D plane.</p>
+                    <br/>
+                    <p><b>Programming Language:</b> Java, Android</p>
+                    <p><b>Mathematics:</b> Linear Algebra, Perspective Projection</p>
+                    
+                    <br/>
+                    <!-- <a class="text-center btn-modal">Explore More</a>-->
+                    
+               
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- LetsChill Modal -->
+    <div id="letschill-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                	<h4 class="modal-title"><b>LetsChill</b></h4>
+                </div>
+                <div class="modal-body">
+                    <p>A web app to find a meetup location for two people in a local area. Given two locations, it will find options in between them and suggests cafes, restaurants, shopping center, theatres, etc for users. Build to provide convenient ways to plan group activities, meet-ups, hangouts, dates and family outings.</p>
+                    <br/>
+                    <p><b>Frontend:</b> HTML5, CSS3, Google Material Design, Javascript</p>
+                    <p><b>Backend:</b> Google AutoCompleteAPI, Google Places API, GoogleMaps API</p>
+                    
+                    <br/>
+                    <!-- <a class="text-center btn-modal">Explore More</a>-->
+                    
+               
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- myCFL Modal -->
+    <div id="mycfl-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                	<h4 class="modal-title"><b>MyCFL</b></h4>
+                </div>
+                <div class="modal-body">
+                    <p>A web application created during SportsHack in a team of three. It searches for a CFL athlete who is most similar to the user's attributes (e.g. height, weight, and location) and encourages new football fans to follow and displays the latest feeds from the athlete's social medias.</p>
+                    <br/>
+                    <p><b>Frontend:</b> HTML5, CSS3, Google Material Design, Javascript</p>
+                    <p><b>Backend:</b> Parse(Database), Python (Cosine Similarity for data analysis), Flask(RESTful</p>
+                    
+                    <br/>
+                    <!-- <a class="text-center btn-modal">Explore More</a>-->
+                    
+               
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
 
 	<section id="contact" class="container-fluid text-center" style="padding-top: 70px;">
 		<h1>GET IN TOUCH</h1>
@@ -198,7 +282,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 	<script src="js/jquery.sticky.js"></script>
-	<script src="js/smoothscroll.js"></script>
+	<!-- <script src="js/smoothscroll.js"></script> -->
 	<script src="js/main.js"></script>
 
 

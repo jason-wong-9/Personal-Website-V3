@@ -4,7 +4,7 @@ $(document).ready(function(){
 	});
 
 
-	$('a[href*=#]').bind("click", function(e) {
+	$('.nav a').bind("click", function(e) {
 
     	var anchor = $(this);
     	$('html, body').stop().animate({
