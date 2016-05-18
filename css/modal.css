@@ -18,9 +18,30 @@
   text-align: left;
   vertical-align: middle;
 }
-.modal-content {
-    border: 5px solid #7FB7C8;
+#cubefield-modal .modal-content {
+    border: 5px solid #1F1F1F;
 }
+
+#letschill-modal .modal-content {
+    border: 5px solid #399998;
+}
+
+#mycfl-modal .modal-content {
+    border: 5px solid #631A18;
+}
+
+#moscrop-modal .modal-content {
+    border: 5px solid #9BCDFD;
+}
+
+#course-modal .modal-content {
+    border: 5px solid #389839;
+}
+
+#mind-modal .modal-content {
+    border: 5px solid #CA6ACA;
+}
+
 .modal-body {
     margin-left: 10px;
 }
