@@ -116,13 +116,19 @@
 					</a>
 				</div>
 				<div class="col-md-4 col-sm-6 thumbnail">
-					<img src="img/moscrop/Moscrop.png" onmouseover="this.src='img/moscrop/Moscrop1.png'" onmouseout="this.src='img/moscrop/Moscrop.png'"/>
+					<a href="#" data-toggle="modal" data-target="#moscrop-modal">
+						<img src="img/moscrop/Moscrop.png" onmouseover="this.src='img/moscrop/Moscrop1.png'" onmouseout="this.src='img/moscrop/Moscrop.png'"/>
+					</a>
 				</div>
 				<div class="col-md-4 col-sm-6 thumbnail">
-					<img src="img/course-watcher/Course Watcher.png" onmouseover="this.src='img/course-watcher/Course Watcher_1.png'" onmouseout="this.src='img/course-watcher/Course Watcher.png'"/>
+					<a href="#" data-toggle="modal" data-target="#course-modal">
+						<img src="img/course-watcher/Course Watcher.png" onmouseover="this.src='img/course-watcher/Course Watcher_1.png'" onmouseout="this.src='img/course-watcher/Course Watcher.png'"/>
+					</a>
 				</div>
 				<div class="col-md-4 col-sm-6 thumbnail nomargin">
-					<img src="img/mind-the-gap/Mind the Gap.png" onmouseover="this.src='img/mind-the-gap/Mind the Gap1.png'" onmouseout="this.src='img/mind-the-gap/Mind the Gap.png'"/>
+					<a href="#" data-toggle="modal" data-target="#mind-modal">
+						<img src="img/mind-the-gap/Mind the Gap.png" onmouseover="this.src='img/mind-the-gap/Mind the Gap1.png'" onmouseout="this.src='img/mind-the-gap/Mind the Gap.png'"/>
+					</a>
 				</div>
 			</div>
 		
@@ -173,7 +179,7 @@
                     <p>A web app to find a meetup location for two people in a local area. Given two locations, it will find options in between them and suggests cafes, restaurants, shopping center, theatres, etc for users. Build to provide convenient ways to plan group activities, meet-ups, hangouts, dates and family outings.</p>
                     <br/>
                     <p><b>Frontend:</b> HTML5, CSS3, Google Material Design, Javascript</p>
-                    <p><b>Backend:</b> Google AutoCompleteAPI, Google Places API, GoogleMaps API</p>
+                    <p><b>API Used:</b> Google AutoCompleteAPI, Google Places API, GoogleMaps API</p>
                     
                     <br/>
                     <!-- <a class="text-center btn-modal">Explore More</a>-->
@@ -202,7 +208,94 @@
                     <p>A web application created during SportsHack in a team of three. It searches for a CFL athlete who is most similar to the user's attributes (e.g. height, weight, and location) and encourages new football fans to follow and displays the latest feeds from the athlete's social medias.</p>
                     <br/>
                     <p><b>Frontend:</b> HTML5, CSS3, Google Material Design, Javascript</p>
-                    <p><b>Backend:</b> Parse(Database), Python (Cosine Similarity for data analysis), Flask(RESTful</p>
+                    <p><b>Backend:</b> Parse(Database), Python (Cosine Similarity for data analysis), Flask(API)</p>
+                    
+                    <br/>
+                    <!-- <a class="text-center btn-modal">Explore More</a>-->
+                    
+               
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Moscrop Modal -->
+    <div id="moscrop-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                	<h4 class="modal-title"><b>Moscrop Secondary School Official Application</b></h4>
+                </div>
+                <div class="modal-body">
+                    <p>Collaborated with a current student from Moscrop Secondary School to develop an iOS application using Swift that displays school's information, teachers' contacts as well as recent clubs and events updates. Improved user experience by adding different themes to allow users to customize their personal app interface.</p>
+                    <br/>
+                    <p><b>Programming Language:</b> Swift</p>
+                    <p><b>Backend:</b> Parse(Database)</p>
+                    
+                    <br/>
+                    <!-- <a class="text-center btn-modal">Explore More</a>-->
+                    
+               
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Course Watcher Modal -->
+    <div id="course-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                	<h4 class="modal-title"><b>Course Watcher</b></h4>
+                </div>
+                <div class="modal-body">
+                    <p>A MEAN-stack web application that serves the purpose of watching courses on UBC SSC, in which it informs users through emails when there is a seat open for a specific course. I adapted socket.io to implement real-time capability when adding and deleting new user requests.</p>
+                    <br/>
+                    <p><b>Frontend:</b> HTML5, CSS3, AngularJS</p>
+                    <p><b>Backend:</b> Node.js, Express.Js, MongoDB</p>
+                    
+                    <br/>
+                    <!-- <a class="text-center btn-modal">Explore More</a>-->
+                    
+               
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Mind the Gap Modal -->
+    <div id="mind-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                	<h4 class="modal-title"><b>Mind the Gap</b></h4>
+                </div>
+                <div class="modal-body">
+                    <p>An android application build in the CPSC 210 course. It displays the rail system in London along with real time data. It accurately pinpoints the location of each train stations with the integration of OsmDroid library.</p>
+                    <br/>
+                    <p><b>Programming Language:</b> Java</p>
+                    <p><b>API Used:</b> TransportforLondon API</p>
                     
                     <br/>
                     <!-- <a class="text-center btn-modal">Explore More</a>-->
