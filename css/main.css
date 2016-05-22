@@ -15,8 +15,12 @@ body {
 }
 #intro {
 	text-align: center;
-	top:45%;
+	top:40%;
 	position: relative;
+}
+
+h1 {
+  margin-top: 0;
 }
 
 /*navbar*/
@@ -53,19 +57,7 @@ header {
 	background: #f9f7f6;
 	padding-top: 30px;
 }
-#type ul{
-	padding: 0;
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-#type li {
-	display: inline;
-	padding: 10px 10px;
-}
-#type li a {
-	color: black;
-	text-decoration: none;
-}
+
 
 
 @media screen and (min-width: 1000px) {
