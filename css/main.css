@@ -7,7 +7,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family:"Leelawadee UI";
+    font-family:"Leelawadee UI" !important;
     font-weight:normal;
 }
 
@@ -23,8 +23,33 @@ body {
 }
 #intro {
 	text-align: center;
-	top:40% - ;
+	top:25%;
 	position: relative;
+}
+
+#intro h1 {
+  font-size: 7em;
+}
+
+#intro h3 {
+  font-size: 3em;
+}
+
+#intro button {
+  margin-top: 50px;
+  width: 150px;
+}
+
+@media only screen and (max-width: 720px) {
+    #intro h1 {
+        font-size: 4em;
+    }
+    #intro h3 {
+        font-size: 2em;
+    }
+    #intro {
+      top: 30%;
+    }
 }
 
 h1 {
