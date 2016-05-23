@@ -1,8 +1,16 @@
 /*Entire Page*/
+@font-face{
+    font-family:"Leelawadee UI";
+    src:url(../fonts/LeelawUI.ttf);
+
+}
 body {
     width: 100%;
     height: 100%;
+    font-family:"Leelawadee UI";
+    font-weight:normal;
 }
+
 
 /*Cover Page*/
 #coverpage {
@@ -15,7 +23,7 @@ body {
 }
 #intro {
 	text-align: center;
-	top:40%;
+	top:40% - ;
 	position: relative;
 }
 
@@ -110,7 +118,7 @@ header {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0px;
-  font-family: Arial;
+  font-family:"Leelawadee UI";
   color: #000000;
   background-color: rgba(255, 255, 255, 0.0);
   opacity: 1.0;
