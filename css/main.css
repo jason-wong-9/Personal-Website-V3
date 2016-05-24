@@ -9,6 +9,12 @@ body {
     height: 100%;
     font-family:"Leelawadee UI" !important;
     font-weight:normal;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 
@@ -23,8 +29,9 @@ body {
 }
 #intro {
 	text-align: center;
-	top:25%;
+	top:30%;
 	position: relative;
+  text-shadow: 1px 1px 6px #ffffff;
 }
 
 #intro h1 {
@@ -32,7 +39,7 @@ body {
 }
 
 #intro h3 {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 #intro button {
