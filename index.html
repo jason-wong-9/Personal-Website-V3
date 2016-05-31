@@ -354,33 +354,35 @@
 	<section id="contact" class="container-fluid text-center" style="padding-top: 70px;">
 		<h1>GET IN TOUCH</h1>
 		<h5 style="margin-bottom:50px; margin-top:30px">GIVE ME A SHOUTOUT, GIVE ME A CHANCE TO ENTER YOUR WORLD.</h5>
-		<form>
+		<form action="https://formspree.io/j.wong.9@alumni.ubc.ca" method="POST">
     		<div class="group">      
-				<input type="text" required>
+				<input type="text" required name="name">
 				<span class="highlight"></span>
 				<span class="bar"></span>
 				<label>Name</label>
     		</div>
       
     		<div class="group">      
-    			<input type="text" required>
+    			<input type="email" required name="_replyto">
 				<span class="highlight"></span>
 				<span class="bar"></span>
 				<label>Email</label>
     		</div>
 
     		<div class="group">      
-    			<input type="text" required>
+    			<input type="text" required name="Message">
 				<span class="highlight"></span>
 				<span class="bar"></span>
 				<label>Message</label>
     		</div>
+
+    		<br/>
+  			<button class="mybutton" style="margin-bottom: 50px;" type="submit" value="Send">
+  				SEND
+  			</button>
     
   		</form>
-  		<br/>
-  		<button class="mybutton" style="margin-bottom: 50px;">
-  			SEND
-  		</button>
+  		
 	</section>
 
 	<section id="footer" class="container-fluid text-center">
